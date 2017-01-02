@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+  /*font-family: 'Orbitron', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+  /*font-family: 'Josefin Sans', sans-serif;*/
+
+.main-container {
+    background: url("http://wallpapercave.com/wp/pEeUsp1.jpg");
+    display: flex;
+}
+
+.portal-container {
+    /*float: left;*/
+}
+
+.portal-img {
+  height: auto;
+  width: 70%;
+  margin-left: 20px;
+  }
+
+.morty {
+    width: 100%;
+    height: auto;
+    margin-top: 188px;
+}
+
+.image-container {
+    /*float: right;*/
+}
+
+.rick-img {
+    width: 100%;
+    height: 100%;
+    padding-top: 65px;
+}
+
+.about-show {
+    width: 100%;
+    height: 100%;
+}
+
+.about-show-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black, 2px 2px black, 2px 2px black, 2px 2px black;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 30px;
+}
+
+.show-review {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black, 2px 2px black, 2px 2px black, 2px 2px black;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+}
+
+.text-break {
+    text-align: center;
+}

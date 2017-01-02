@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+ul {
+  list-style: none;
+}
+
+.episodes-container {
+    background: url("http://wallpapercave.com/wp/pEeUsp1.jpg");
+    display: flex;
+    position: relative;
+}
+.portal-img {
+  height: auto;
+  width: 75%;
+  margin-left: 20px;
+  }
+
+  .mr-poopy {
+    height: auto;
+    width: 100%;
+    padding-top: 700px;
+  }
+
+  .home-text {
+  font-family: 'Orbitron', sans-serif;
+  color:#00B0C8;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 224px;
+}
+
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+svg{
+  font-family: 'Orbitron', sans-serif;
+  color: #00B0C8;
+  width: 250px;
+  height: 125px;
+  position: relative;
+  left: 34.5%;
+}
+
+.seasons {
+  width: 87%;
+}
+
+.season-1 {
+  width: 100%;
+}
+
+.season-2 {
+  width: 100%;
+}
+
+.episode-name {
+  color: #00B0C8;
+}
+
+.episode-text-color {
+  color: white;
+}
+
+.episode-text {
+  color: white;
+  font-family: 'Space Mono', monospace;
+  font-weight: 500;
+  font-size: 21px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  padding-right: 125px;
+  padding-top: 15px;
+  text-align: center;
+  position: relative;
+  right: 3.8%;
+}
