@@ -37,8 +37,8 @@
 }
 
 .banner-logo {
-  position: absolute;
-  padding-left: 518px;
+  position: relative;
+  padding-left: 28px;
   padding-top: 50px;
   height: 155px;
 }
@@ -70,11 +70,17 @@
 }
 
 .home-text {
+  position: relative;
   font-family: 'Orbitron', sans-serif;
   color:#00B0C8;
   font-size: 20px;
   font-weight: bold;
-  padding-left: 224px;
+  padding-left: 100px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 .about-text {
@@ -82,7 +88,12 @@
   color:#00B0C8;
   font-size: 20px;
   font-weight: bold;
-  padding-left: 23px;
+  padding-left: 15px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 .episodes-text {
@@ -90,7 +101,12 @@
   color:#00B0C8;
   font-size: 20px;
   font-weight: bold;
-  padding-left: 5px;
+  padding-right: 25px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 .menu-vid {
