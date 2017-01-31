@@ -1,20 +1,62 @@
 <div class="main-container" style="width: 100%; height: 100%">
     <div class="portal-container" style="width: 13%; height: 100vh;">
-        <a ui-sref="home"><img class="portal-img" src="rm-portal.jpg" alt="portal"></a>
+        <a ui-sref="home"><img class="portal-img" src="/images/rm-portal.jpg" alt="portal"></a>
         <p class="home-text" style="padding-left: 20px;">Home</p>
-        <img class="morty" src="morty-img.png">
+        <img class="morty" src="/images/morty-img.png" ng-click="startConvo()">
     </div>
     <div class="content-container" style="width: 70%; height: 100%;">
         <div class="about-show">
             <p class="about-show-text">Rick and Morty is an adult animated science fiction sitcom created by Justin Roiland and Dan Harmon, that follows the misadventures of alcoholic scientist Rick and his overly nervous grandson Morty, who split their time between domestic family life and intergalactic travel. Often finding themselves in a heap of trouble that more often than not, was created through their own actions.</p>
             <p class="text-break">_______________________________________________________________</p>
             <p class="show-review">"Having seen the first two episodes I can tell you this much: the minds of Harmon and Roiland are special places to visit. And by special, I mean a little scary. But in an awesome, not easily explained sort of way." - Sabienna Bowman from TV Equals</p>
-            <video class="menu-vid" width="525" height="315" autoplay>
-              <source src="rm-pass-butter.mp4" type="video/mp4">
-            </video>
+            <!--<video class="menu-vid" width="525" height="315" controls>
+              <source src="butt-seeds-RM.mp4" type="video/mp4">
+            </video>-->
         </div>
     </div>
     <div class="image-container" style=" width: 16%; height: 100%;">
-        <img class="rick-img" src="rick-img.png">
+        <img class="rick-img" src="/images/rick-img.png" ng-click="startConvo()">
     </div>
-</div>
+
+    <div class="rick-convo" ng-show="first">We’re gonna have to go through inter-dimensional customs. Soooo, you’re gonna have to do me a real solid.</div>
+
+    <div class="morty-convo" ng-show="second">Uh oh.</div>
+
+    <div class="rick-convo" ng-show="third">When we get to customs, I’m gonna need you to take these seeds into the bathroom.</div>
+
+    <div class="rick-convo" ng-show="fourth">And I’m gonna need you to put them waaaay up inside your butthole Morty.</div>
+
+    <div class="morty-convo" ng-show="fifth">In my butt?</div>
+
+    <div class="rick-convo" ng-show="sixth">Put them way up inside there, as far as they can fit.</div>
+
+    <div class="morty-convo-long" ng-show="seventh">Oh, geez, Rick. I really don’t want to have to do that!</div>
+
+    <div class="rick-convo-long" ng-show="eighth">Well, somebody’s got to do it, Morty! Th-these seeds aren’t gonna get throught customs unless they’re in somebody’s rectum, Morty.</div>
+
+    <div class="morty-convo" ng-show="ninth">*whimpers*</div>
+
+    <div class="rick-convo" ng-show="tenth">A-And they’ll fall right out of mine! I’ve done this too many times, Morty.</div>
+
+    <div class="rick-convo" ng-show="eleventh">I mean, you’re young. Y-You’ve got your whole life ahead of you, and your anal cavity is still taut, yet malleable.</div>
+
+    <div class="rick-convo" ng-show="twelth">You got to do it for Grandpa, Morty! Y-you’ve got to put these seeds inside your butt.</div>
+
+    <div class="morty-convo" ng-show="thirdteenth">In my butt?</div>
+
+    <div class="rick-convo" ng-show="fourteenth">Come on, Morty! Please, Morty! You have to do it, Morty!</div>
+
+    <div class="morty-convo" ng-show="fifthteenth">Oh, man.</div>
+
+    <img class="chat-bubble" src="/images/chat-bubble.png" ng-show="bubble1">
+
+    <img class="chat-bubble2" src="/images/chat-bubble.png" ng-show="bubble2">
+
+    <img class="about-logo" src="/images/about-logo.png">
+
+
+    </div>
+
+
+
+<audio id="convo-clip" src="/videos-audio/butt-seeds.mp3" type="audio/mpeg"></audio>

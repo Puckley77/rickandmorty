@@ -2,6 +2,9 @@
   /*font-family: 'Orbitron', sans-serif;*/
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
   /*font-family: 'Josefin Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+  /*font-family: 'Indie Flower', cursive;*/
+
 
 .main-container {
     background: url("http://wallpapercave.com/wp/pEeUsp1.jpg");
@@ -22,6 +25,7 @@
     width: 100%;
     height: auto;
     margin-top: 163px;
+    cursor: pointer;
 }
 
 .image-container {
@@ -32,6 +36,7 @@
     width: 100%;
     height: 100%;
     padding-top: 65px;
+    cursor: pointer;
 }
 
 .about-show {
@@ -64,4 +69,99 @@
 
 .text-break {
     text-align: center;
+}
+
+.rick-convo {
+    width: 235px;
+    height: 190px;
+    position: absolute;
+    right: 230px;
+    top: 430px;
+    text-align: center;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+    font-weight: 900;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rick-convo-long {
+    width: 225px;
+    height: 190px;
+    position: absolute;
+    right: 238px;
+    top: 425px;
+    text-align: center;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18.5px;
+    font-weight: 900;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.morty-convo {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 252px;
+    top: 395px;
+    text-align: center;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 27px;
+    font-weight: 600;
+    border-radius: 50%;
+    z-index: 1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.morty-convo-long {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 250px;
+    top: 400px;
+    text-align: center;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50%;
+    z-index: 1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-bubble {
+    position: absolute;
+    width: 200px;
+    top: 360px;
+    left: 225px;
+    transform: rotate(10deg);
+}
+
+.chat-bubble2 {
+    position: absolute;
+    width: 280px;
+    top: 355px;
+    right: 205px;
+    transform: rotate(190deg);
+}
+
+.about-logo {
+    position: absolute;
+    width: 450px;
+    top: 460px;
+    right: 480px;
 }
