@@ -15,7 +15,6 @@ angular.module('rickAndMorty', ['ui.router', 'firebase'])
 
   $stateProvider
     .state('home', {
-      controller: 'homeCtrl',
       url: '/',
       templateUrl: '/app/home/home.html'
     })
@@ -33,7 +32,6 @@ angular.module('rickAndMorty', ['ui.router', 'firebase'])
     })
 
     .state('art', {
-      controller: 'artCtrl',
       url: '/art',
       templateUrl: '/app/art/art.html'
     })
