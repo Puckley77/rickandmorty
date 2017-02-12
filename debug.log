@@ -12,3 +12,5 @@
 [0106/170617:WARNING:in_range_cast.h(38)] value 2085231661914 out of range
 [0106/170617:WARNING:in_range_cast.h(38)] value 2085231665498 out of range
 [0106/170617:WARNING:in_range_cast.h(38)] value 2085231660902 out of range
+[0210/160644:ERROR:tcp_listen_socket.cc(76)] Could not bind socket to 127.0.0.1:6004
+[0210/160644:ERROR:node_debugger.cc(86)] Cannot start debugger server
