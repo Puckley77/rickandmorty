@@ -16,24 +16,24 @@ angular.module('rickAndMorty', ['ui.router', 'firebase'])
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: '/app/home/home.html'
+      templateUrl: './app/home/home.html'
     })
 
     .state('about', {
       controller: 'aboutCtrl',
       url: '/about',
-      templateUrl: '/app/about/about.html'
+      templateUrl: './app/about/about.html'
     })
 
     .state('episodes', {
       controller: 'episodesCtrl',
       url: '/episodes',
-      templateUrl: '/app/episodes/episodes.html'
+      templateUrl: './app/episodes/episodes.html'
     })
 
     .state('art', {
       url: '/art',
-      templateUrl: '/app/art/art.html'
+      templateUrl: './app/art/art.html'
     })
 
 });
